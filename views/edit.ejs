@@ -6,10 +6,15 @@
 	<title>Edit content</title>
 </head>
 <body>
-	<form>	
-		<textarea > </textarea>
-		<button>Update Post</button>
-	</form>
-	
+	<div style = "text-align: center;">
+		<h2> Edit the Post... </h2>
+		<p> User-id : <%= post.id %> </p>
+		<p> User-name : <%= post.username %> </p>
+		<form method = "post" action ="/posts/<%=post.id%>?_method=PATCH">	
+			<textarea rows = "10" cols = "40" name = "content"> <%= post.content %></textarea>
+			<br>
+			<button>Submit</button>
+		</form>
+	</div>
 </body>
 </html>
