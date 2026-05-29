@@ -1,3 +1,7 @@
+body{
+	background-color: rgb(58, 56, 56);
+}
+
 h1 {
 	text-align : center ;
 	color : maroon ; 
@@ -6,7 +10,7 @@ h1 {
 .posts {
 	width : 70% ; 
 	margin : auto ; padding : 20px ; margin-top : 20px ;
-	background-color : rgb(231, 204, 209) ;
+	background-color : darkgrey ;
 }
 
 .user {
@@ -17,4 +21,38 @@ h1 {
 	text-align : center ;
 }
 
+button {
+	background-color : rgb(18, 17, 17) ;
+	color : white ;
+	border : none ;
+	padding : 10px 20px ;
+	border-radius : 5px ;
+	cursor : pointer ;
+}
 
+.buttons {
+	display : flex ;
+	text-align : center ;
+	margin-top : 10px ;
+	gap : 50px ;
+}
+
+a {
+	text-decoration : none ;
+	color : white ;
+}
+
+.box{
+	width : 50% ;
+	margin : auto ;
+	padding : 20px ;
+	background-color : darkgrey ;
+	margin-top : 50px ;
+}
+
+form {
+	display : flex ;
+	flex-direction : column ;
+	gap : 20px ;
+	align-items : center ;
+}

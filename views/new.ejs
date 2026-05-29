@@ -4,14 +4,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>New Post</title>
+	<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-	<div style = "text-align: center;"> 
+	<div class = "box">
 		<h1> create new Post</h1>
 		<form method = "post" action = "/posts">
 			<input type = "text" placeholder ="username" name = "username" required>
 			<br><br>
-			<input type = "text" placeholder = "content" name = "content" required>
+			<textarea rows = "10" cols = "60" placeholder = "content" name = "content" required></textarea>
 			<br>
 			<br>
 			<button type = "submit">submit Post</button>
